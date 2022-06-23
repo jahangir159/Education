@@ -1,19 +1,17 @@
 /* Start Header Section */
 
-
 .header{
     background-color: brown;
 }
 .container-full{
     margin:0 auto;
-
     width: 100%;
     height: 100%;
 }    
 .container{
     margin: 0 auto;
-    width: 1150px;
-    padding: 0px;
+    width: 720px;
+    padding: 5px;
 }
 .container::before,
 .container::after,
@@ -24,68 +22,57 @@
     clear: both;
 }
 
-.col-30{
-    float: left;
-    margin-top: 10px;
+.col-30 img{
+    padding-left: 110px;
+    margin-top: 3px;
+    display: inline-block;
+    height: 100px;
+}
+.header .col-70{
+    padding-right: 270px;
 }
 .col-70 ul li{
     float: right;
-    padding:20px 5px;
+    padding:5px 2px;
     list-style: none;
-    margin: 0 9px;
+    margin: 0 3px;
 
 }
 .col-70 ul li a{
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
     transition: 2s;
-    padding: 10px;
-    font-size: x-large;
+    padding: 5px;
+    font-size: 15px;
     color: aqua;
 }
 .col-70 ul li a:hover{
     background-color: aqua;
     color: red;
-    border-radius: 50px;
+    border-radius: 30px;
     
 }
 
 /* Start body Section */
 
-.col-20{
-    width: 20%;
-    float: left;
-}
-.col-25{
-    float: left;
+
+
+/* General CSS*/
+
+.col-25-m{
     width: 24%;
-}
-.col-33{
     float: left;
+}
+.col-33-m{
     width: 32%;
-}
-.col-40{
     float: left;
-    width: 39%;
 }
-.col-50{
+.col-50-m{
     width: 49%;
-    padding-top: 10px;
     float: left;
 }
-.col-60{
-    float: left;
-    width: 59%;
-}
-.col-70{
-    width: 69%;
-    float: right;
-}
-.cel{
-    padding: 5px;
-}
-p{
-    font-size: 25px;
+.col-100-m{
+    width: 100%;
 }
 
 /* section 02 */
@@ -95,18 +82,22 @@ p{
     background-color: #303740;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 720px;
+    padding-left: 10px;
+    padding-bottom: 70px;
 }
 
 .section2 .container h1{
-    font-size: 50px;
+    font-size: 25px;
     color: #fff;
-    border-bottom: 10px solid red;
+    border-bottom: 2px solid red;
     display: inline-block;
-
+    margin-left: 30px;
 }
 .section2 .container p{
-    font-size: 40px;
+    font-size: 20px;
     color: aqua;
+    margin-left: 35px;
 }
 
 
@@ -114,24 +105,28 @@ p{
 .sectio03 div div .section03-1{
     padding-right: 5px;
     float: left;
+    background-color: #EAB830;
+    padding: 10px;
+    padding-bottom: 15px;
 }
 .sectio03 div div .section03-1 span{
-    font-size:30px;
+    font-size:20px;
     color: red;
 }
 .sectio03 div div .section03-1 h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 .sectio03 div div .section03-1 p{
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .sectio03 div div .section03-1 a{
     text-decoration: none;
-    border: 3px red solid;
-    padding: 15px;
-    font-size: 30px;
+    border: 1px red solid;
+    padding: 10px;
+    font-size: 15px;
     transition: 1s;
+    margin: 300px;
 }
 .sectio03 div div .section03-1 a:hover{
     background-color: aqua;
@@ -141,20 +136,14 @@ p{
 /* */
 
 .sectio03 div div .section03-s .cel{
-    padding: 30px;
-    margin: 0 5px;
-    transition: 1s;
+    padding: 10px;
+    margin: 0 2px;
     
-}
-.sectio03 div div .section03-2 .section03-s .cel:hover{
-    background-color: #EAB830;
-    border-radius: 20%;
 }
 .sectio03 div div .section03-2 .section03-s h1{
     color: red;
-    font-size:30px;
+    font-size:20px;
 }
-
 
 
 /* section 04 */
@@ -164,33 +153,42 @@ p{
     margin-top: 5px;
 }
 .section05 .container-full .container{
-    padding: 100px 0;
+    padding: 30px 0;
     background: url(../Img/img16.png);
     background-repeat: no-repeat;
     background-position: center;
+    height: 250px;
+    width: 720px;
+}
+.section05 .container-full .container h1{
+    font-size: 30px;
+}
+.section05 .container-full .container h1 img{
+    height: 30px;
+    padding-left: 10px;
 }
 .section05 .container-full .container .col{
-    margin: 50px 70px;
+    margin: 20px;
 }
 .section05 div h1{
-    font-size: 40px;
+    font-size: 12px;
     color: red;
 }
 .section05 .container-full .container .col .col-25{
-    padding: 5px 0;
-    margin: 5px;
+    padding: 2px 2px;
+    margin: 10px;
     text-align: center;
-    height: 195px;
-    width: 230px;
     transition: 0.3s;
+    height: 140px;
+    width: 130px;
 }
 .section05 .container-full .container .col .col-25:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
     
 }
 
 .section05 .container-full .container .col .col-25 a img{
-    padding-top: 50px;
+    padding-top: 15px;
 }
 .section05 .container-full .container .col .col-25 a{
     text-decoration: none;
@@ -198,7 +196,7 @@ p{
 .section05 .container-full .container .col .col-25 a span{
     text-align: center;
     color: blue;
-    font-size: 25px;
+    font-size: 10px;
 }
 .section05 .container-full .container .col .col-1{
     background-color: #EAB830;
@@ -214,45 +212,50 @@ p{
 }
 
 
-
 /* section 05 */
 
 .section04 .container-full .container .container04-1{
     background-color: #2777B5;
-    padding-left: 5px;
+    padding-left: 2px;
     float: left;
+    margin-bottom: 50px;
 }
 .section04 .container-full .container .container04-1 video{
     background-color: #2777B5;
     padding-top: 10px;
+    padding: 5px;
+    height: auto;
+    width: 710px;
 }
 
+.section04 .container-full .container .container04-1 div{
+    margin-left: 20px;
+    padding-bottom: 15px;
+    
+}
 .section04 .container-full .container .container04-1 h1{
     color: red;
-    
+    font-size: 30px;
 }
 .section04 .container-full .container .container04-1 span{
     color: #fff;
-    
+    font-size: 25;
 }
 
 
 /* */
 .section04 .container-full{
-    background-color: #ffffff;
+    background-color: #fff;
 }
 .section04 .container-full .container{
     padding:10px 0;
 }
-.section04 .container-full .container .col-40 video{
-    height: auto;
-    width: 440px;
-}
 .section04 .container-full .container .container04-2{
     text-align: center;
-    background-color: #F5F5F5;
-    margin: 155px 5px;
-    padding: 50px 2px;
+    
+    margin: 15px 5px;
+    padding: 20px 2px;
+   
 
 }
 .section04 .container-full .container .container04-2 .border{
@@ -260,11 +263,14 @@ p{
     
 }
 .section04 .container-full .container .container04-2 .col-33 img{
-    padding: 0 60px;
+    padding: 5 30px;
     text-align: center;
 }
 .section04 .container-full .container .container04-2 .col-33 div{
     text-align: center;
+}
+.section04 .container-full .container .container04-2 .col-33 div span{
+    font-size: 25px;
 }
 .section04 .container-full .container .container04-2 .col-33:hover{
     background-color: #2777B5;
@@ -281,6 +287,7 @@ p{
     padding: 72px 0;
 }
 
+
 /* section 06 */
 
 .section06{
@@ -296,23 +303,28 @@ p{
 }
 .s6-top .top h1{
     color: red;
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
+}
+.s6-top .top h1 img{
+    height: 30px;
 }
 .s6-top .top a{
     float:right;
     display: inline-block;
     margin: 35px 10px;
-    padding: 15px 20px;
+    padding: 10px 15px;
     background-color: #FA394A;
     color: #111A2D;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     
 }
 .section06 .col-33{
     margin-top: 10px;
-    
+    padding-left: 200px;
+    width: 340px;
 }
 .section06 .col-33 .col-33-1,
 .section06 .col-33 .col-33-2,
@@ -324,7 +336,7 @@ p{
 .section06 .col-33 .col-33-1{
     background-image: url(../Img/img17.png);
     background-repeat: no-repeat;
-    width: 365px;
+    width: 340px;
     height: 235px;
     
 }
@@ -343,23 +355,30 @@ p{
 .section06 .col-33 .col-33-2{
     color: #f72f40;
 }
+.section06 .col-33 .col-33-2 img,
+.section06 .col-33 .col-33-3 img{
+    width: 340px;
+    height: 235px;
+}
 .section06 .col-33 .col-33-3{
     color: #FA394A;
 }
 .section06 .col-33 .col-33-4{
     background-image: url(../Img/19.png);
     background-repeat: no-repeat;
-    width: 365px;
+    width: 340px;
     height: 235px;
     
 }
 
 
-
-
 /* section 07 */
 .section07{
     background-color: #B4B4B4;
+}
+.section07-2 img{
+    width: 340px;
+    height: 235px;
 }
 .section07 .top{
     display: block;
@@ -368,27 +387,35 @@ p{
 }
 .section07 .top h1{
     color: red;
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
+}
+.section07 .top h1 img{
+    height: 30px;
+}
+.section07 .col-33{
+    border-bottom: 1px orange solid;
+    padding-top: 10px;
+    padding-left: 100px;
 }
 .section07 .col-33 div{
     padding: 5px 10px;
+    width: 340px;
     
 }
 .section07 .col-33 .date{
     color: #ef23f9;
-    background-color: #EBEBEB;
     padding: 0 5px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .section07 .col-33 .time{
     float: right;
     color: #ef23f9;
-    background-color: #EBEBEB;
     padding: 0 5px;
     font-size: 18px;
 }
-.section07 .coll-33 h1{
+.section07 .col-33 h1{
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #1E1E1E;
 }
@@ -407,51 +434,66 @@ p{
 }
 .section08 .top h1{
     color: red;
-    font-size: 40px;
+    font-size: 30px;
     display: inline-block;
+}
+.section08 .top h1 img{
+    height: 30px;
 }
 .section08 .teacher-1 .col-33{
     background-color: #fff;
+    margin: 2px;
     height: 400px;
-    width: 260px;
-    margin: 50px;
+    width: 236px;
+}
+.section08 .teacher-1 .col-33 img{
+    width: 236px;
 }
 .section08 .teacher-1 .col-33 h1{
-    font-size: 25px;
+    font-size: 20px;
     color: #333333;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .section08 .teacher-1 .col-33 span{
     color: #F9394A;
-    padding-left: 20px;
+    padding-left: 10px;
     font-size: 18px;
 }
 .section08 .teacher-1 .col-33 h1, span{
     padding-left: 10px;
 }
 /**/
+.section08 .teacher-1{
+    padding-bottom: 50px;
+}
 .section08 .teacher-2 #h1{
     color: #111A2D;
-    font-size: 30px;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 .section08 .teacher-2 .col-25{
     background-color: #fff;
-    margin: 5px;
+    margin: 2px;
+    height: 200px;
+    width: 170px;
 }
 .section08 .teacher-2 #h1{
     padding-left: 20px;
-    color: red;
+    color: rgb(255, 254, 254);
 }
 .section08 .teacher-2 .col-25 h1{
-    padding: 10px 30px;
+    font-size: 20px;
+    padding: 10px;
     color: blue;
+    text-align: center;
+    border-bottom: 1px #ef23f9 solid;
 }
 .section08 .teacher-2 .col-25 ul li{
-    padding-left: 30px;
+    padding-left: 15px;
     list-style: none;
 }
 .section08 .teacher-2 .col-25 ul li a{
+    font-size: 10px;
     text-decoration: none;
     color: #333333;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -467,15 +509,18 @@ p{
     padding: 100px 0;
 }
 .section09 .container .col-25{
-    margin:  5px;
+    margin:  1px;
     background-color: #d0cccc;
     text-align: center;
     padding-top: 15px;
+    height:150px ;
+    width: 170px;
 }
 .section09 .container .col-25 img{
     display: inline;
     margin-bottom: 10px;
-    padding: 0 89px;
+    padding: 0 10px;
+    height: 80px;
 }
 .section09 .container .col-25 div{
     padding-bottom: 20px;
@@ -485,15 +530,11 @@ p{
     
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     color: #333333;
     border: 1px black solid;
     padding: 5px;
 }
-
-
-
-
 
 
 /* End Body Section*/
@@ -503,34 +544,32 @@ p{
     background-color: #18254A;
     padding-top: 10px;
 }
-.footer .col-25{
-     width: 24%;
-    display: inline-block;
-}
-.footer .footer-padding{
+footer .col-100-m div img{
     padding-left: 10px;
-    margin: 60px 0;
 }
-.footer .col-25{
-    padding-bottom: 20px;
-}
-footer .col-25 h1{
-    color: red;
-    
-}
-footer .col-25 .h1{
-    padding-left: 30px;
-}
-footer .col-25 div p{
-    color: #fff;
-}
-footer .col-25 li{
-    list-style: none;
-    color: #fff;
-}
-footer .col-25 li a{
-    text-decoration: none;
-    color: #fff;
+footer .col-100-m div p{
     font-size: 20px;
+    color: #fff;
+    padding: 0 10pxpx;
 }
+
+footer .col-100-m .col-33-m{
+    height: 200px;
+    width: 170px;
+}
+footer .col-100-m .col-33-m h1{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    text-align: center;
+}
+footer .col-100-m .col-33-m ul li{
+    list-style: none;
+    font-size: 15px;
+    color: #fff;
+}
+footer .col-100-m .col-33-m ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
  /*End Footer Section */
